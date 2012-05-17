@@ -193,5 +193,6 @@ if [ "$1" -ge "1" ] ; then
 fi
 
 %changelog
-* Fri Nov 12 2010  Daniel Lundin <dln@eintr.org> - 3.3.2-2
-- Update to 3.3.2
+* Fri May 17 2012  Marco Sinhoreli <msinhore@gmail.com> 3.3.2-1
+- Migrate from https://gist.github.com/757136
+- Added cppunit-devel as Build Requires
