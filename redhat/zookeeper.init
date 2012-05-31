@@ -2,7 +2,7 @@
 #
 # zookeeper ZooKeeper Server
 #
-# chkconfig: - 80 05
+# chkconfig: - 18 05
 # description: Enable ZooKeeper Server
 #
 
