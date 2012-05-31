@@ -21,7 +21,7 @@ Source4: log4j.properties
 Source5: java.env
 BuildRoot: %{_tmppath}/%{name}-%{rel_ver}-%{release}-root
 BuildRequires: python-devel,gcc,cppunit-devel
-Requires: logrotate, java
+Requires: logrotate, java-1.6.0-openjdk
 Requires(post): chkconfig initscripts
 Requires(pre): chkconfig initscripts
 AutoReqProv: no
