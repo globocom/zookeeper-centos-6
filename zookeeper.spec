@@ -180,6 +180,7 @@ exit 0
 
 %post
 /sbin/chkconfig --add zookeeper
+/sbin/chkconfig zookeeper on
 
 %preun
 if [ $1 = 0 ] ; then
