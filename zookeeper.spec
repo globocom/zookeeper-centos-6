@@ -181,6 +181,7 @@ exit 0
 %post
 /sbin/chkconfig --add zookeeper
 /sbin/chkconfig zookeeper on
+/sbin/service zookeeper start
 
 %preun
 if [ $1 = 0 ] ; then
