@@ -9,7 +9,7 @@
 Summary: High-performance coordination service for distributed applications.
 Name: zookeeper
 Version: %{rel_ver}
-Release: 1
+Release: 2
 License: Apache License v2.0
 Group: Applications/Databases
 URL: http://hadoop.apache.org/zookeeper/
@@ -194,6 +194,8 @@ if [ "$1" -ge "1" ] ; then
 fi
 
 %changelog
-* Fri May 17 2012  Marco Sinhoreli <msinhore@gmail.com> 3.3.2-1
+* Fri Jun 01 2012  Francisco Souza <f@souza.cc> 3.4.3-2
+- Changed priority on zookeeper.init
+* Fri May 17 2012  Marco Sinhoreli <msinhore@gmail.com> 3.4.3-1
 - Migrate from https://gist.github.com/757136
 - Added cppunit-devel as Build Requires
